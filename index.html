@@ -25,24 +25,40 @@
     <title>Floating WhatsApp Icon</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <style>
-        .float {
-            position: fixed;
-            width: 60px;
-            height: 60px;
-            bottom: 40px;
-            right: 40px;
-            background-color: #25d366;
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            font-size: 30px;
-            box-shadow: 2px 2px 3px #999;
-            z-index: 100;
-        }
+.whatsapp {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
 
-        .my-float {
-            margin-top: 16px;
-        }
+  .instagram {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 100px;
+    right: 40px;
+    background: linear-gradient(45deg, #833AB4, #FD1D1D, #FDB99B);    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
     </style>
   </head>
 
@@ -505,9 +521,15 @@
       bannerTimer = setInterval(bannerSwitcher, 5000)
     });
   </script>
-    <a href="https://api.whatsapp.com/send?phone=5522981553744&text=Ol%C3%A1,%20vim%20do%20site,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="float" target="_blank">
-      <i class="fa fa-whatsapp my-float"></i>
+
+  <a href="https://api.whatsapp.com/send?phone=5522981553744&text=Ol%C3%A1,%20vim%20do%20site,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es" class="whatsapp" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
   </a>
+
+  <a href="https://www.instagram.com/marckosmonteiro_pb/" class="instagram" target="_blank">
+    <i class="fa fa-instagram instagram-float"></i>
+
+
   </body>
 
 </html>
